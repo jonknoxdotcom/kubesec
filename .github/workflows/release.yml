@@ -26,7 +26,7 @@ jobs:
       - name: Check out code
         uses: actions/checkout@v1
         with:
-          path: src/github.com/controlplaneio/kubesec/
+          path: src/github.com/jonknoxdotcom/kubesec/
       - name: Launch goreleaser
         uses: goreleaser/goreleaser-action@master
         with:
